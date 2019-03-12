@@ -22,6 +22,7 @@ Route::get('/survey', function () {
 Route::get('/result', function () {
     return view('result');
 });
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
